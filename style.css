@@ -21,5 +21,50 @@
 }
 
 button {
-    padding: 2rem;
+    width: 4rem;
+    padding: 1rem 3rem 1rem 2.3rem;
+    border: 2px solid black;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+button:active {
+    background-color: brown;
+}
+
+#zero {
+    width: 11.1rem;
+}
+
+.all-buttons {
+    border: 2px solid black;
+}
+
+body {
+    font-size: 3rem;
+    margin-top: 12rem;
+}
+
+.display {
+    border: 4px solid black;
+    width: 22.4rem;
+    text-align: end;
+    background-color: black;
+    color: white;
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.blue {
+    background-color: blue;
 }

@@ -33,28 +33,6 @@ function convertToPercent() {
     display.innerText = digitTwo.toString()
 }
 
-function division() {
-    let firstDigit = display.innerText
-    equalsTo("division", firstDigit)
-}
-
-function multiplication() {
-    let firstDigit = display.innerText
-    equalsTo("multiplicaton", firstDigit)
-}
-
-function subtraction() {
-    let firstDigit = document.innerText
-    equalsTo("subtraction", firstDigit)
-}
-
-function addition() {
-    let firstDigit = document.innerText
-    equalsTo( "addition", firstDigit)
-}
-
-function equalsTo(stat, firstDigit) {
-    if (stat === 'division') {
-
-    }
+function equalsTo() {
+    display.innerText = eval(display.innerText)
 }
